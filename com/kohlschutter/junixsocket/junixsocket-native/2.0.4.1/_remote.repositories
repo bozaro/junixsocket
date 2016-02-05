@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Feb 05 23:00:31 MSK 2016
+junixsocket-native-2.0.4.1.pom>=
+junixsocket-native-2.0.4.1-amd64-Linux-gpp-jni.nar>=
+junixsocket-native-2.0.4.1-sources.jar>=
+junixsocket-native-2.0.4.1.nar>=
+junixsocket-native-2.0.4.1-javadoc.jar>=
