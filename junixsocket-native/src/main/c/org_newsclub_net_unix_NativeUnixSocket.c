@@ -250,7 +250,7 @@ JNIEXPORT void JNICALL Java_org_newsclub_net_unix_NativeUnixSocket_bind
 		}
 	}
 
-	int chmodRes = chmod(su.sun_path, filemode);
+	int chmodRes = chmod(su.sun_path, (__mode_t)filemode);
 	if(chmodRes == -1) {
 		org_newsclub_net_unix_NativeUnixSocket_throwException(env, strerror(errno), file);
 	}
